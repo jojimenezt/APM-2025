@@ -22,13 +22,7 @@ La planificación del proyecto "Electric Dragon Motors" se estructuró en una se
 
 Se elaboró un diagrama de Gantt para establecer un cronograma de actividades que incluyera tiempos, responsables y entregables. Este cronograma permitió visualizar el avance del proyecto y tomar decisiones de ajuste cuando fue necesario. Además, se utilizó una matriz RACI para definir los roles y responsabilidades del equipo, asegurando una distribución adecuada de tareas y una comunicación efectiva entre los miembros.
 ### Estructura de Desglose del Trabajo (EDT)
-
-
-### Diagrama de Gantt
-> 📸 Imagen: insertar aquí imagen del Gantt (diapositiva 4)
-
-### Matriz RACI
-> 📸 Imagen: insertar aquí imagen de la matriz RACI (diapositiva 5)
+![](TextoImagenes/EDT.png)
 
 ---
 
@@ -58,11 +52,31 @@ Se analizaron tres modelos principales de motocicletas eléctricas: MQi GT, NQi 
 | NQi GTS  | 3500W    | 80 km/h   | 114 km    | $7.900.000 |
 | UQi GT   | 6000W    | 100 km/h  | 128 km    | $10.800.000 |
 
-> 📸 Imagen: insertar aquí imagen de productos (diapositiva 12)
+![](TextoImagenes/Productos.png)
 
 ### Listado de partes
 Adicionalmente, se realizó un desglose completo de partes y componentes clave en la estructura de estos modelos, identificando oportunidades de estandarización y ensamblaje modular.
-> 📸 Imagen: insertar aquí imagen del listado de partes (diapositiva 13)
+
+Estas partes son: 
+
+1. Rueda trasera.
+2. Manillar delantero.
+3. Manillar trasero.
+4.  Panel.
+5.  Cubiertadelantero.
+6.  Cubierta de la rueda delantera.
+7.   Horquilla delantera.
+8.   Sistema de frenado combinado.
+9.   Rueda delantera.
+10.   Componentes eléctricos.
+11.   Parte media.
+12.   Cubierta derecho e izquierdo.
+13.   Cuerpo inferior.
+14.   Carrocería parte trasera.
+15.   Silla y batería.
+16.   Soportes lateral y central.
+17.   Componentes traseros.
+18.   Horquilla trasera
 
 ---
 
@@ -75,15 +89,16 @@ El mapeo de valor (pre-VSM) permitió identificar ineficiencias en los tiempos d
 
 Este diagnóstico sirvió de base para el rediseño del proceso con miras a su automatización total o parcial mediante celdas robotizadas y sistemas inteligentes de transporte.
 
-> 📸 Imagen: insertar aquí imagen del proceso actual (diapositiva 14)
+### Tiempos de Ensamblaje actuales
+![](TextoImagenes/tiemposActuales.png)
+
 
 ### Pre-VSM
-> 📸 Imagen: insertar aquí imagen del Pre-VSM (diapositiva 15)
+![](TextoImagenes/vsm.png)
 
 ### Métricas actuales
-- Tiempos de ciclo, eficiencia, y volumen de producción mensual.
 
-> 📸 Imagen: insertar aquí imagen de métricas (diapositiva 16)
+![](TextoImagenes/indicador.png)
 
 ---
 
@@ -92,6 +107,7 @@ Este diagnóstico sirvió de base para el rediseño del proceso con miras a su a
 ### Costos Preliminares
 
 El análisis económico del proyecto incluye los costos de adquisición por unidad de los tres modelos, así como los costos operativos mensuales: mano de obra, arriendo, mantenimiento, servicios y gastos administrativos. Los resultados indican una utilidad bruta mensual de más de $166 millones COP, demostrando la rentabilidad del modelo automatizado.
+![](TextoImagenes/costos.png)
 
 ### Celdas Robóticas Preliminares
 
@@ -99,6 +115,7 @@ En cuanto a la automatización, se evaluaron diferentes opciones de celdas robó
 
 Se incluyó además la instalación de una cinta transportadora especializada para motocicletas monoplaza, optimizando los tiempos de desplazamiento entre estaciones.
 
-> 📸 Imagen: insertar aquí imagen de maquinaria (diapositiva 19)
+![](TextoImagenes/manipuladores.png)
+![](TextoImagenes/OtraMaq.png)
 
 

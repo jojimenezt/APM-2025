@@ -1,17 +1,26 @@
 main:
-  - name: "Services"
+
+  - name: "Productos"
     url: "/services/"
     weight: 2
-  - name: "Team"
+    children:
+      - name: "Subproducto 1"
+        url: "/services/sub1/"
+      - name: "Subproducto 2"
+        url: "/services/sub2/"
+
+  - name: "Equipo"
     url: "/team/"
     weight: 3
-  - name: "About"
+
+  - name: "Modulos"
     url: "/about/"
     weight: 4
+
   - name: "Contact"
     url: "/contact/"
     weight: 5
-
+    
 footer:
   - name: "Home"
     url: "/"

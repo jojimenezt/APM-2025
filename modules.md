@@ -1,6 +1,6 @@
 ---
 title: Modules
-layout: services
+layout: modules
 description: Modules
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true

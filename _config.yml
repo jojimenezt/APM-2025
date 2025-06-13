@@ -15,6 +15,12 @@ home:
   limit_services: 6
 
 collections:
+  products:
+    output: true
+    sort_by: weight
+  modules:
+    output: true
+    sort_by: weight
   services:
     output: true
     sort_by: weight

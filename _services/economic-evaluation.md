@@ -4,84 +4,93 @@ date: 2019-01-28T15:15:26+10:00
 weight: 3
 ---
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet
+La evaluación económica del proyecto **Electric Dragon Motors** se desarrolló a partir de un análisis integral del mercado y de los costos preliminares asociados a la producción de motocicletas eléctricas.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+ # Análisis del Mercado
 
-# Objectives
+Durante el año 2024 se evidenció un crecimiento sostenido en la demanda de vehículos eléctricos en Colombia. Según datos del sector:
 
-Financial accounting and financial reporting are often used as synonyms.
+- Se importaron más de **40.000 bicicletas eléctricas**
+- Se vendieron más de **800.000 motos de combustión interna**
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+Estas cifras revelan una gran oportunidad para la migración hacia la movilidad eléctrica, especialmente en entornos urbanos, donde las motocicletas eléctricas representan una alternativa eficiente, silenciosa y libre de emisiones.
 
-## Relevance
+Con base en esta proyección, se seleccionaron tres modelos de motocicletas eléctricas para su producción:
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+| Modelo        | Precio estimado (COP) | Velocidad Máxima | Autonomía estimada | Conectividad     |
+|---------------|------------------------|-------------------|--------------------|------------------|
+| **UQi GT**    | $4.900.000             | 45 km/h           | Media              | App + LCD        |
+| **NQi GTS**   | $7.900.000             | 80 km/h           | Alta               | App + TFT        |
+| **MQi GT100** | $10.800.000            | 100 km/h          | Muy Alta           | App + BLE        |
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+Esta oferta permite cubrir distintos segmentos del mercado, desde usuarios urbanos de bajo consumo hasta clientes que buscan alto desempeño y tecnología.
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
 
-## Faithful Representation
+### Costos Preliminares de Producción
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+El análisis de costos preliminares contempla los gastos asociados a la importación de vehículos eléctricos, la estructura de costos operativos mensuales, y los márgenes proyectados de utilidad. Esta información permite establecer un panorama financiero claro del proyecto.
 
 ---
 
-## Statement of cash flows
+# Costo de Unidades Importadas
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+| Modelo      | Costo (USD) | Costo Container | IVA (CIF) | Aranceles | Transporte | Total (USD) | Costo Unitario (USD) | Costo (COP)     |
+|-------------|-------------|------------------|-----------|-----------|------------|-------------|-----------------------|------------------|
+| Mini Eagle  | $260,00     | $9.200,00        | $1.748,00 | $920,00   | $500,00    | $12.368,00  | $618,40               | $2.782.800       |
+| DM5         | $300,00     | $10.000,00       | $1.900,00 | $1.000,00 | $500,00    | $13.400,00  | $670,00               | $3.015.000       |
+| DM9         | $350,00     | $11.000,00       | $2.090,00 | $1.100,00 | $500,00    | $14.690,00  | $734,50               | $3.305.250       |
 
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+> Nota: Los modelos **Mini Eagle**, **DM5** y **DM9** fueron considerados en el análisis financiero por su viabilidad de importación y costos, mientras que los modelos **MQi GT100**, **NQi GTS** y **UQi GT** fueron evaluados desde la perspectiva de especificaciones técnicas, funcionalidades y posicionamiento de mercado.
+> 
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+#### Mano de Obra Mensual
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+| Sección         | Cantidad | Salario Promedio | Salario (COP)     | Total mensual      |
+|-----------------|----------|------------------|-------------------|---------------------|
+| Ensamble        | 10       | 2 SMLMV          | $4.300.000        | $43.000.000         |
+| Administrativos | 4        | 3 SMLMV          | $6.450.000        | $25.800.000         |
+| Servicios       | 2        | 1 SMLMV          | $2.150.000        | $4.300.000          |
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+**Total mano de obra mensual:** **$73.100.000 COP**
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
+> SMLMV considerado: **$2.150.000 COP** (con subsidios y aportes)
 
-## Statement of financial position (balance sheet)
+---
 
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+#### Costos Fijos Mensuales
 
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
+| Concepto                           | Costo mensual (COP)      |
+|-----------------------------------|---------------------------|
+| Mano de obra                      | $73.100.000               |
+| Depreciación por uso de equipos   | $5.000.000                |
+| Arriendo de bodega (1200 m²)      | $20.000.000               |
+| Mantenimiento de equipos          | $10.000.000               |
+| Gastos administrativos            | $5.000.000                |
+| Servicios públicos                | $3.000.000                |
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+**Total costos fijos mensuales:** **$116.100.000 COP**
+
+---
+
+#### Costos Imprevistos
+
+Se consideró un 15% adicional sobre los costos fijos como provisión para imprevistos:
+
+- **Costos imprevistos mensuales:** **$17.415.000 COP**
+
+**Total mensual estimado con imprevistos:**  
+**$133.515.000 COP**
+
+
+#### Balance Mensual
+
+| Concepto                       | Valor (COP)              |
+|--------------------------------|---------------------------|
+| **Ingresos por Mini Eagle**    | $40.220.000               |
+| **Ingresos por DM5**           | $148.400.000              |
+| **Ingresos por DM9**           | $111.442.500              |
+| **Total ingresos mensuales**   | $300.062.500              |
+| **Total costos mensuales**     | $116.100.000              |
+| **Costos imprevistos mensuales** | $17.415.000             |
+| **Utilidad bruta mensual**     | **$166.547.500**          |
+

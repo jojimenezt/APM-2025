@@ -29,6 +29,16 @@ defaults:
       layout: "service"
   - scope:
       path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "modules"
+    values:
+      layout: "module"
+  - scope:
+      path: ""
       type: "team"
     values:
       layout: "team"

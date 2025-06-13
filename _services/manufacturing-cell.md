@@ -1,7 +1,7 @@
 ---
-title: "Insurance"
+title: "Celda robotizada"
 date: 2019-05-18T12:33:46+10:00
-weight: 7
+weight: 4
 ---
 
 Para alcanzar un alto nivel de automatización, seguridad y eficiencia en el proceso de ensamblaje, se planteó la incorporación de celdas robóticas especializadas y equipos industriales.

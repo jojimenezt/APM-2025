@@ -1,7 +1,7 @@
 ---
 title: "Planificación del Proyecto"
 date: 2018-12-28T15:14:39+10:00
-weight: 1
+weight: 2
 ---
 
 La planificación del proyecto "Electric Dragon Motors" se inició con la definición del problema y los objetivos, generales y específicos, para luego establecer una Estructura de Desglose del Trabajo (EDT) que proporcionara una guía para las etapas subsiguientes. 

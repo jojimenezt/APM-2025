@@ -26,7 +26,7 @@ bodyClass: "page-teams"
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
@@ -35,19 +35,22 @@ bodyClass: "page-teams"
                     <div class="team-social-icons">
                         {% if team.linkedinurl %}
                         <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">
-                            <img src="{{ '/assets/img/linkedin.svg' | relative_url }}" alt="LinkedIn de {{ team.title }}" width="24" height="24" />
+                            <img src="{{ '/images/social/linkedin.svg' | relative_url }}"  width="24" height="24" />
                         </a>
                         {% endif %}
                         {% if team.githuburl %}
                         <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">
-                            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub de {{ team.title }}" width="24" height="24" />
+                            <img src="{{ '/images/social/github.svg' | relative_url }}"  width="24" height="24" />
                         </a>
+                        {% endif %}
+                        {% if team.mail %}
+                            <a target="_blank" href="{{ team.mail }}" rel="noreferrer">
+                                <img src="{{ '/images/social/email.svg' | relative_url }}"  width="24" height="24" />
+                            </a>
                         {% endif %}
                     </div>
 
-                    {% if team.mail %}
-                    <p class="team-description">Correo: {{team.mail}}</p>
-                    {% endif %}
+                    
                 </div>
                 <div class="team-content">{{ team.excerpt | truncate: 200 }}</div>
             </div>

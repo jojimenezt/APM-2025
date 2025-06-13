@@ -1,11 +1,11 @@
 ---
 title: "Jonathan Jiménez"
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/peter-van-eijk-711986-unsplash.jpg"
+image: "images/team/jonathan-jimenez.jpg"
 jobtitle: ""
+promoted: true
 linkedinurl: "https://www.linkedin.com/in/jojimenezt"
 githuburl: "https://www.github.com/jojimenezt"
-promoted: true
 mail: "jojimenezt@unal.edu.co"
 weight: 1
 ---

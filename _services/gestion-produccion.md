@@ -20,8 +20,8 @@ El flujo de ensamblaje está compuesto por las siguientes etapas principales:
 | Instalación del sistema eléctrico general                          | 67,5                | 40,1                       | 22,5                           |
 | Instalación frontal y trasera de carrocería y luces                | 62,6                | 40,1                       | 22,5                           |
 | Instalación de carrocería lateral y manillar                       | 66,2                | 51,7                       | 14,5                           |
-| Etiquetado y verificación                                          | 63,8                | 32,0                       | 31,8                           |
-| Preparación para despacho                                          | 18,0                | 18,0                       | 0                              |
+| Etiquetado y verificación                                          | 33,8                | 2,0                       | 31,8                           |
+| Preparación para despacho                                          | 18,0                | 0                       | 18,0                             |
 
 - **Tiempo total de ensamblaje:** 353,6 min (~5,89 h)  
 - **Valor agregado (VA):** 217,9 min (61,62%)  

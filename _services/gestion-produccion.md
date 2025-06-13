@@ -4,81 +4,70 @@ date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
-Financiero accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+La gestión de la producción actual en la planta de ensamblaje de motocicletas eléctricas se caracteriza por un sistema completamente **manual**, organizado en una secuencia de operaciones que van desde la recepción de componentes hasta el despacho final. Este proceso ha sido analizado mediante herramientas como el **Pre-VSM** y la recopilación de **métricas clave de desempeño**, con el fin de identificar cuellos de botella, ineficiencias y oportunidades de mejora.
 
-# Objectives
 
-Financial accounting and financial reporting are often used as synonyms.
+# Procesos Actuales
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+El flujo de ensamblaje está compuesto por las siguientes etapas principales:
 
-## Relevance
+| Etapa                                                              | Tiempo total (min) | Valor Agregado (VA) (min) | No Valor Agregado (NVA) (min) |
+|--------------------------------------------------------------------|---------------------|----------------------------|--------------------------------|
+| Instalación base y sistema de potencia                             | 45,9                | 40,9                       | 5,0                            |
+| Instalación del motor                                              | 31,1                | 20,6                       | 10,5                           |
+| Instalación del sistema delantero (dirección + rueda)             | 28,5                | 22,5                       | 6,0                            |
+| Instalación del sistema eléctrico general                          | 67,5                | 40,1                       | 22,5                           |
+| Instalación frontal y trasera de carrocería y luces                | 62,6                | 40,1                       | 22,5                           |
+| Instalación de carrocería lateral y manillar                       | 66,2                | 51,7                       | 14,5                           |
+| Etiquetado y verificación                                          | 63,8                | 32,0                       | 31,8                           |
+| Preparación para despacho                                          | 18,0                | 18,0                       | 0                              |
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+- **Tiempo total de ensamblaje:** 353,6 min (~5,89 h)  
+- **Valor agregado (VA):** 217,9 min (61,62%)  
+- **No valor agregado (NVA):** 130,8 min (36,99%)
 
-> The ingredients of relevance are the predictive value and confirmatory value.
-
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
-
-## Faithful Representation
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+Este balance revela una proporción significativa de actividades que no agregan valor al producto final, lo que refuerza la necesidad de introducir automatización y mejoras logísticas.
 
 ---
 
-## Statement of cash flows
+## Pre-VSM (Mapeo de Valor del Estado Actual)
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+El análisis de **Pre-VSM** permitió visualizar el flujo de trabajo actual desde la recepción de materiales hasta el despacho del producto final. Entre los principales hallazgos se encuentran:
 
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+- Instrucciones emitidas manualmente desde control de producción.
+- Alta carga de trabajo para operarios (hasta dos por estación).
+- Tiempo total estimado por unidad: 480 minutos.
+- Producción diaria: 10 unidades.
+- Ausencia de automatización en transporte y control.
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+Este mapeo sirvió como referencia para proyectar una línea automatizada más eficiente y balanceada.
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+---
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+## Métricas de Desempeño (Estado Actual)
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
+Se recopilaron las siguientes métricas durante una jornada laboral estándar:
 
-## Statement of financial position (balance sheet)
+### Variables operativas
 
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+| Variable                         | Medida        |
+|----------------------------------|---------------|
+| Tiempo disponible (min/día)      | 480 min       |
+| Tiempo muerto (min/día)          | 80 min        |
+| Tiempo de operación efectiva     | 400 min       |
+| Tiempo de ciclo estándar         | 35 min        |
+| Unidades producidas              | 10            |
+| Unidades defectuosas             | 1             |
 
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
+### Indicadores de desempeño
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+| Indicador      | Valor (%) |
+|----------------|-----------|
+| Disponibilidad | 83%       |
+| Rendimiento    | 88%       |
+| Calidad        | 90%       |
+| **OEE**        | **66%**   |
+
+El indicador **OEE** se sitúa en un 66%, lo cual indica un nivel aceptable de eficiencia, pero con margen amplio de mejora, especialmente en la reducción del tiempo muerto y la eliminación de reprocesos derivados de errores humanos.
+

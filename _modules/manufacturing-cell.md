@@ -4,84 +4,43 @@ date: 2019-05-18T12:33:46+10:00
 weight: 7
 ---
 
-Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,
-clipeus fatetur, mira inter accedere. Dedit dum raptoresque Oete dolorem
-Cretaeas enim [ipse pectora excusat](#in-poscat) candentibus fertur? Furtiva
-Orontes Erysicthona dona, est per Achille viridi draconis cultis mota milia.
+Para alcanzar un alto nivel de automatización, seguridad y eficiencia en el proceso de ensamblaje, se planteó la incorporación de celdas robóticas especializadas y equipos industriales.
+# Etapa Seleccionada: Instalación de Baterías (Celda Robótica)
+Esta etapa fue identificada como crítica y prioritaria debido a su complejidad operativa y su alto impacto en la seguridad del producto final. La manipulación e instalación de las baterías requiere precisión, fuerza controlada y repetibilidad, lo que la convierte en una candidata ideal para ser automatizada mediante robótica industrial, dado a que contribuye significativamente a reducir riesgos de fallos eléctricos por errores de conexión.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+-	Aplicación del robot: Pick & Place + herramienta de torque
+-	Estado del material de entrada: Paquete de baterías en bandeja, con cables parcialmente preparados
+-	Estado del material de salida: Batería instalada y ajustada correctamente sobre el chasis del vehículo
+  
 
-# Objectives
+# Etapa Opcional: Pruebas Eléctricas y Verificación de Cargadores (Celda Semiautomatizada)
+Como posible ampliación, se propone una segunda celda orientada a realizar las pruebas eléctricas finales de cada unidad ensamblada, asegurando el correcto funcionamiento de los sistemas eléctricos.
 
-Financial accounting and financial reporting are often used as synonyms.
+- Aplicación del robot: Inspección y pruebas con sensores y visión artificial
+- Estado del material de entrada: Motocicleta completamente ensamblada con sistema eléctrico activo
+- Estado del material de salida: Vehículo validado en cuanto a encendido, luces, cargador y motor
+  
+Esta celda puede implementarse con un alto grado de automatización o como una estación semiautomatizada con interfaz HMI, sensores y procedimientos guiados para los operarios.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+# Equipos Evaluados para Automatización
+Se evaluaron múltiples robots industriales según la carga útil y el alcance necesarios en cada etapa del proceso:
 
-## Relevance
+- ABB IRB 6600 – Carga: 150 kg.
+- KUKA KR 60-3 – Carga: 60 kg.
+- ABB IRB 2600 – Carga: 20 kg.
+  
+Adicionalmente, se consideró la incorporación de centros de mecanizado CNC, como el Haas VF-2SS y el Mazak QT-Primos 100 SG, para la fabricación precisa de piezas como carcasas y ejes estructurales.
+También se incluyó la instalación de una cinta transportadora especializada para motocicletas monoplaza, la cual permite un flujo continuo y sincronizado de las unidades entre estaciones de trabajo, reduciendo tiempos muertos y riesgos por manipulación manual.
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+![](TextoImagenes/manipuladores.png)
+![](TextoImagenes/OtraMaq.png)
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+# Seguridad en Celdas Robotizadas
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+Dado el carácter crítico de las operaciones seleccionadas, se plantea la definición de criterios de seguridad industrial para el diseño de las celdas.
 
-## Faithful Representation
+Para garantizar un entorno de trabajo seguro, se tendrá en cuenta la identificación de los elementos peligrosos en el proceso, la evaluación de riesgos conforme a las normas ISO 12100 y 14121, y la determinación del nivel de seguridad requerido (PLr) según la norma ISO 13849-1. Esto permitirá establecer medidas adecuadas de mitigación y control.
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+El diseño de las celdas incorporara componentes de seguridad industrial como cortinas fotoeléctricas, enclavamientos, paros de emergencia y sensores redundantes, todos integrados a través de un sistema de control confiable y validado. Además, se definieran procedimientos operativos seguros para ingreso, mantenimiento y operación de las estaciones, asegurando que las personas y los equipos estén protegidos en todo momento.
+En conjunto, estas acciones permiten no solo cumplir con los estándares internacionales, sino también asegurar la continuidad del proceso productivo sin comprometer la seguridad.
 
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.

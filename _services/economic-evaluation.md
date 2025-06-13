@@ -36,12 +36,10 @@ El análisis de costos preliminares contempla los gastos asociados a la importac
 
 | Modelo      | Costo (USD) | Costo Container | IVA (CIF) | Aranceles | Transporte | Total (USD) | Costo Unitario (USD) | Costo (COP)     |
 |-------------|-------------|------------------|-----------|-----------|------------|-------------|-----------------------|------------------|
-| Mini Eagle  | $260,00     | $9.200,00        | $1.748,00 | $920,00   | $500,00    | $12.368,00  | $618,40               | $2.782.800       |
-| DM5         | $300,00     | $10.000,00       | $1.900,00 | $1.000,00 | $500,00    | $13.400,00  | $670,00               | $3.015.000       |
-| DM9         | $350,00     | $11.000,00       | $2.090,00 | $1.100,00 | $500,00    | $14.690,00  | $734,50               | $3.305.250       |
+| UQi GT| $260,00     | $9.200,00        | $1.748,00 | $920,00   | $500,00    | $12.368,00  | $618,40               | $2.782.800       |
+| NQi GTS       | $300,00     | $10.000,00       | $1.900,00 | $1.000,00 | $500,00    | $13.400,00  | $670,00               | $3.015.000       |
+| MQi GT100        | $350,00     | $11.000,00       | $2.090,00 | $1.100,00 | $500,00    | $14.690,00  | $734,50               | $3.305.250       |
 
-> Nota: Los modelos **Mini Eagle**, **DM5** y **DM9** fueron considerados en el análisis financiero por su viabilidad de importación y costos, mientras que los modelos **MQi GT100**, **NQi GTS** y **UQi GT** fueron evaluados desde la perspectiva de especificaciones técnicas, funcionalidades y posicionamiento de mercado.
-> 
 
 #### Mano de Obra Mensual
 
@@ -86,9 +84,9 @@ Se consideró un 15% adicional sobre los costos fijos como provisión para impre
 
 | Concepto                       | Valor (COP)              |
 |--------------------------------|---------------------------|
-| **Ingresos por Mini Eagle**    | $40.220.000               |
-| **Ingresos por DM5**           | $148.400.000              |
-| **Ingresos por DM9**           | $111.442.500              |
+| **Ingresos por UQi GT**|    | $40.220.000               |
+| **Ingresos por NQi GTS**           | $148.400.000              |
+| **Ingresos por MQi GT100**           | $111.442.500              |
 | **Total ingresos mensuales**   | $300.062.500              |
 | **Total costos mensuales**     | $116.100.000              |
 | **Costos imprevistos mensuales** | $17.415.000             |

@@ -1,11 +1,11 @@
 main:
 
   - name: "Productos"
-    url: "/services/"
+    url: "/products/"
     weight: 2
     children:
       - name: "UQi GT"
-        url: "/services/sub1/"
+        url: "/products/sub1/"
       - name: "NQi GTS"
         url: "/services/sub2/"
       - name: "MQi GT100"
@@ -23,11 +23,11 @@ main:
         url: "/about/sub2/"
 
   - name: "Modulos"
-    url: "/about/"
+    url: "/modules/"
     weight: 4
     children:
       - name: "Gestión de Producción"
-        url: "/about/sub1/"
+        url: "/modules/proyect-planning/"
       - name: "Planeación del proyecto"
         url: "/about/sub2/"
       - name: "Evaluación ecónomica"

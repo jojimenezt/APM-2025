@@ -32,14 +32,24 @@ bodyClass: "page-teams"
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %}
+                    <div class="team-social-icons">
+                        {% if team.linkedinurl %}
+                        <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">
+                            <img src="{{ '/assets/img/linkedin.svg' | relative_url }}" alt="LinkedIn de {{ team.title }}" width="24" height="24" />
+                        </a>
+                        {% endif %}
+                        {% if team.githuburl %}
+                        <a target="_blank" href="{{ team.githuburl }}" rel="noreferrer">
+                            <img src="{{ '/assets/img/github.svg' | relative_url }}" alt="GitHub de {{ team.title }}" width="24" height="24" />
+                        </a>
+                        {% endif %}
+                    </div>
+
                     {% if team.mail %}
                     <p class="team-description">Correo: {{team.mail}}</p>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
+                <div class="team-content">{{ team.excerpt | truncate: 200 }}</div>
             </div>
         </div>
         {% endfor %}
